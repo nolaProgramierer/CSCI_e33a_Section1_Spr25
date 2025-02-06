@@ -1,0 +1,7 @@
+### POST Request
+POST https://httpbin.org/post
+Content-Type: application/x-www-form-urlencoded
+
+fname=Glenn&lname=Langdon&age=28
+
+

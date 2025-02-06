@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Flex Container</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 72px;
+                border: 2px solid blue;
+                text-align: center;
+            }
+            /* Flow within the container */
+            #container {
+                display: flex;
+                /* flex-direction: row; */
+                /* flex-direction: row-reverse; */
+                /* flex-direction: column; */
+                /* flex-direction: column-reverse; */
+            }
+            .box1 {
+                background-color: red;
+            }
+            .box2 {
+                background-color: blue;
+            }
+            .box3 {
+                background-color: darkgray; 
+            }
+            .box4 {
+                background-color: orange;
+            }
+            .box5 {
+                background-color: dodgerblue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div class="box box1">1</div>
+            <div class="box box2">2</div>
+            <div class="box box3">3</div>
+            <div class="box box4">4</div>
+            <div class="box box5">5</div>
+        </div>
+    </body>
+</html>

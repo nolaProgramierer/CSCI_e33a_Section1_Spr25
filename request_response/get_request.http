@@ -1,0 +1,3 @@
+### GET Request
+GET https://httpbin.org/get?fname=Glenn&lname=Langdon&age=29
+

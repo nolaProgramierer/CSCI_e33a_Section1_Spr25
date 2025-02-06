@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-divs {
+    border: 1px solid black;
+    background-color: beige;
+    width: 50%;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#form0 {
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+.submit-btns {
+    color: white;
+    background-color: blue;
+    margin-top: 1em;
+}
+#form1 {
+   height: 150px;
+}
+#form2 {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding-bottom: 2em;
+}

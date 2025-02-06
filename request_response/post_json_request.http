@@ -1,0 +1,9 @@
+### JSON POST Request
+POST https://httpbin.org/post
+Content-Type: application/json
+
+{
+  "fname": "Glenn",
+  "lname": "Langdon",
+  "age": 30
+}
